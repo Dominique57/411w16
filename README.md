@@ -17,18 +17,23 @@ For tcp listening, you can use [previous project](https://github.com/Dominique57
 > * netcat
 > * awk
 
+
 ## Guide
 
 > Create files
 ```bash
 $ ./createFiles.sh
 ```
+
 - - -
+
 > Copy files
 ```bash
 $ ./benchmarPC.sh [count of iterations]
 ```
+
 - - -
+
 > Transfer files over tcp
 ```bash
 $ ./benchmarkTCP.sh [count of iterations] [host] [port]
@@ -37,7 +42,9 @@ $ ./benchmarkTCP.sh [count of iterations] [host] [port]
 ```bash
 $ bash Network/server.sh [port]
 ```
+
 - - -
+
 > generate graphs
 ```bash
 $ ./createGraph.sh
@@ -46,7 +53,9 @@ $ ./createGraph.sh
 ```bash
 $ python3 python.py [filename]
 ```
+
 - - -
+
 > Delete all generated files
 ```bash
 $ ./clean.sh
